@@ -1,15 +1,17 @@
-# 新需求
+# New Requirement
 
-当前FIND OWNERS页面下已经支持了通过Last name查询Owner的功能。
+The current FIND OWNERS page already supports the functionality of querying Owners by Last name.
 
-- 在当前页面添加一个输入框，输入框可以输入宠物名称，并且复用Find Owner的搜索按钮。
-- 同时修改后端查找的逻辑，能同时兼容两个参数进行查找，Pet name需要支持模糊查询。
-- 生成相应的单元测试并尝试运行成功。
+- Add an input box on the current page to enter the pet name, and reuse the Find Owner search button.
+- Modify the backend search logic to support both parameters for searching. Pet name needs to support fuzzy query.
+- Generate corresponding unit tests and try to run them successfully.
 
 
-# 缺陷修复
+# Bug Fix
 
-当前在OWNER页面可以修改宠物信息，但是保存不生效，请对相关业务逻辑进行修改，修复该功能。
+Currently, on the OWNER page, pet information can be modified, but the save operation doesn't take effect. Please modify the related business logic to fix this functionality.
 
-- 修改逻辑要保证数据确实存储到了后端，而不仅仅是前端进行修改。
-- 生成相关的单元测试。
+- The modification logic must ensure that the data is actually stored in the backend, not just modified on the frontend.
+- Generate related unit tests.
+
+
